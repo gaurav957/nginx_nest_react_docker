@@ -1,0 +1,34 @@
+.testing {
+  @media (max-width: 767px) {
+    min-width: 0 !important;
+    width: 100%;
+  }
+}
+.single-select {
+  margin: 5px 12px;
+  width: 98.3%;
+
+  .MuiSelect-root {
+    background-color: map-get($map: $bg-color, $key: fade);
+    font-size: map-get($map: $text-size, $key: "small");
+    color: map-get($map: $text-color, $key:primary-dark);
+    padding: 10px;
+    border: 0px;
+  }
+  
+  .MuiInputBase-root{
+    border: 0px;
+    color: map-get($map: $text-color, $key:primary);
+  }
+}
+.single-select__menu-list {
+  padding: 0;
+
+  .MuiListItem-root {
+    padding: 6px 10px;
+    font-size: map-get($map: $text-size, $key: xsmall);
+  }
+  .selected-value {
+    background-color: #e3e3e3;
+  }
+}

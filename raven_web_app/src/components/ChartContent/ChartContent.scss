@@ -1,0 +1,208 @@
+.chart-content {
+  .MuiGrid-container{
+    background: map-get($map: $bg-color, $key: secondary);
+    padding: 0px 10px;
+    width: inherit;
+  }
+  .MuiInputBase-input.Mui-disabled {
+    opacity: .6;
+  }
+  .chart-content__control-wrapper {
+    display: flex;
+    align-items: center;
+    padding: .4rem 0px;
+    //min-width: 550px;
+    @media (max-width: 786px) {
+      display: none;
+    }
+  }
+
+  .export-chart-group {
+    justify-content: flex-end;
+  }
+
+  .button-group {
+    margin: 0 10px;
+    min-width: 5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .chart-content__chart-wrapper {
+    margin: 15px 5px 10px 12px;
+    width: 98.2%;
+    height: calc(100vh - 340px);
+    // background: #fff;
+    // padding: 20px 15px;
+    // border: 1px solid #E1E3E7;
+    // border-radius: 2px;
+    .highcharts-container{
+      overflow: hidden;
+      border-radius: 3px;
+    }
+  }
+  .wave-button {
+    height: 30px;
+    font-size: map-get($map: $text-size, $key: xsmall);
+    width: 117px;
+    margin: 3px;
+    margin-bottom: 15px;
+  }
+
+  .chart-content__base-count {
+    font-size: map-get($map: $text-size, $key: small);
+    color: map-get($map: $text-color, $key: primary);
+    margin-top: 10px;
+  }
+  .title__Block {
+    display: flex;
+    .appbar__heading {
+      color: map-get($map: $text-color, $key: primary);
+      font-weight: 500;
+      display: grid;
+      margin-right: 0.5rem;
+      padding-top: 2px;
+      font-size: 17px;
+    }
+    .appbar__tourGuide {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background: map-get($map: $bg-color, $key: grayLight);
+      text-align: center;
+      color: map-get($map: $text-color, $key: primary);
+      border-radius: 4px;
+      padding: 0.2rem 0.4rem 0.2rem 0.1rem;
+      margin-top: 2px;
+      height: 20px;
+      .MuiSvgIcon-root {
+        font-size: 15px;
+      }
+      .tourText {
+        font-size: map-get($map: $text-size, $key: xsmall);
+      }
+      &:hover {
+        color: #fff;
+        background: #f47c3c;
+      }
+
+      @media (max-width: 786px) {
+        display: none;
+      }
+    }
+  }
+
+  .button-group {
+    //display: block;
+    flex-direction: unset;
+    .MuiGrid-root {
+      //display: inline-block;
+      .button.MuiButtonBase-root {
+        margin: 0px 5px 0px;
+      }
+    }
+    .button-group__group-title {
+      //display: block;
+      //margin-bottom: 4px;
+      min-width: fit-content;
+      padding-right: 7px;
+      padding-top: 2px;
+    }
+  }
+  .chartTyle__option {
+    min-width: 200px;
+  }
+
+  .menu-icon {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-right: 0.5375rem;
+    float: left;
+    padding: 0.24rem;
+    border: 1px solid map-get($map: $text-color, $key: fade);
+    border-radius: 50%;
+    //padding: 0.625rem 0; //10px 0px;
+    &::before,
+    &::after,
+    div {
+      background: map-get($map: $text-color, $key: fade);
+      content: "";
+      display: block;
+      height: 1px;
+      border-radius: 3px;
+      margin: 3px 2px;
+      transition: 0.5s;
+    }
+  }
+
+  &.sidebar-open {
+    // width: calc(100% - #{$sidebar-width});
+    // margin-left: $sidebar-width;
+
+    @media (min-width: 769px) {
+      .menu-icon {
+        div {
+          transform: scale(0);
+        }
+
+        &::before {
+          transform: translateY(6px) rotate(135deg);
+        }
+        &::after {
+          transform: translateY(-6px) rotate(-135deg);
+        }
+      }
+    }
+  }
+
+  &.full-width {
+    width: 100% !important;
+    margin-left: 0;
+    .menu-icon {
+      display: none;
+    }
+    .appbar__brand-logo {
+      display: block;
+    }
+
+    // .appbar__left-panel {
+    //   margin-left: $sidebar-width;
+    // }
+  }
+  .button-group__button-wrapper {
+    div {
+      &:first-child {
+        .button-group__button {
+          margin-left: 0;
+        }
+      }
+      &:last-child {
+        .button-group__button {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+.orientation-control {
+  .active {
+    &:not(.Mui-disabled) {
+      svg {
+        g {
+          stroke: map-get($map: $text-color, $key: accent);
+        }
+      }
+    }
+  }
+}
+
+.chart-option-tooltip {
+  display: none;
+
+  @media (max-width: 786px) {
+    display: block;
+  }
+}

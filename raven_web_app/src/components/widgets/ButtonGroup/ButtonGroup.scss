@@ -1,0 +1,46 @@
+.button-group {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  &.MuiGrid-root.button-group:nth-last(){
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  button {
+    &.MuiButtonBase-root {
+      min-width: 0;
+      width: 25px;
+      height: 25px;
+      padding: 0px;
+      margin: 0 5px;
+      border: 1px solid map-get($map: $text-color, $key: primary);
+    }
+    &.active {
+      &:not(.Mui-disabled) {
+        color: map-get($map: $text-color, $key: accent);
+        svg {
+          path {
+            fill: map-get($map: $text-color, $key: accent);
+          }
+
+          line {
+            stroke: map-get($map: $text-color, $key: accent);
+          }
+        }
+        border-color: map-get($map: $text-color, $key: accent);
+      }
+    }
+  }
+
+  .button-group__group-title {
+    font-size: map-get($map: $text-size, $key: small);
+    color: map-get($map: $text-color, $key: primary);
+    // min-width: fit-content;
+    flex: 1;
+  }
+}
+
+.button-group__button-wrapper {
+  display: flex;
+}

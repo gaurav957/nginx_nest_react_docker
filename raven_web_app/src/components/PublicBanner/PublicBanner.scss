@@ -1,0 +1,42 @@
+.public-banner {
+  //height: 70vh;
+  //background: map-get($map: $bg-color, $key: accent) url(../../assets/svg/shape.png)  no-repeat;
+  //background-position: bottom left;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 150px;
+
+  .public-banner__title {
+    font-size: map-get($map: $heading-size, $key: giant);
+    color: map-get($map: $text-color, $key: light);
+    margin-left: 35px;
+    line-height: 5rem;
+    font-weight: 700;
+    .public-banner__title__heading{
+      font-size: map-get($map: $heading-size, $key: xlarge);
+      color: map-get($map: $text-color, $key: light);
+      margin-left: 10px;
+      line-height: 5rem;
+      font-weight: 700;
+      margin-bottom: 0px;
+      .brandColor{
+        color: map-get($map: $text-color, $key: accent);
+      }
+
+    }
+    .public-banner__title__logstext{
+      font-size: map-get($map: $text-size, $key: large);
+      margin-left: 20px;
+      line-height: 3rem;
+    }
+  } 
+  .public-banner__shape {
+    position: absolute;
+    top: -4px;
+    right: -3px;
+    width: 18rem;
+  }
+
+}

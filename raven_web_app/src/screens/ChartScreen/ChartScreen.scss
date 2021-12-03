@@ -1,0 +1,19 @@
+.chart-screen {
+  .content-area {
+    //padding: 10px 30px;
+    margin-top: -6px;
+    background: map-get($map: $bg-color, $key:secondary-dark );
+    @media (max-width: 767px) {
+      padding: 10px 5px;
+    }
+  }
+}
+
+.eTpeTG {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+  color: #5e5e5e;
+}
