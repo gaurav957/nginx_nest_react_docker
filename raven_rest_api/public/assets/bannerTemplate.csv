@@ -1,0 +1,9 @@
+qId,qLabelText,order,active
+qa1,Gender,1,1
+hidage,Age,2,1
+hidregion,Region,3,1
+qe1,Employment status,4,1
+qe4,Household Income,5,1
+qe5,Education,6,1
+qe7,Languages,7,1
+qe6,Marital status? ,8,1

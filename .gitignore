@@ -2,6 +2,12 @@
 */dist
 */node_modules
 
+#environment files
+*.env
+
+#ppt files
+*.pptx
+
 # Logs
 */logs
 */*.log

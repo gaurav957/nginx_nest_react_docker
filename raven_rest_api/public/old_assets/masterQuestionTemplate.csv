@@ -1,0 +1,61 @@
+qId,qText,type,qLabelText,gridId,subType
+D1,Please specify your company's industry,S,Type of Industry,,
+D2,What is your company's annual revenue? ,S,Annual revenue,,
+D2a,Do you run applications in the cloud?,S,Applications in the cloud?,,
+D3,In which region is the organization you work for headquartered?,S,organization's Headquarter Region,,
+D3a,Where do you primarily reside?,S,Area of Reside,,
+D4,What title best describes you?,S,Executive Hierarchy,,
+D5,What is the primary focus of your current role in the organization?,S,Primary Focus of Current Role,,
+D6,Which one of the following statements most accurately captures the current state of your organization's shared services and outsourcing landscape? ,S," Current State of Services and 
+Outsourcing Landscape",,
+D7,What was your organization's revenue growth for the last 12 months?,S,organization's Revenue,,
+D8,What was your organization's profit growth for the last 12 months?,S,organization's Profit Growth,,
+D9x1,"You, an individual - You, an individual",S,Classification of Individual ,,
+D9x2,Your company - Your company,S,Classification of Company,,
+Q1x1,Improve brand value (For past 12 months - For past 12 months),R,Major strategic priorities post pandemic shock - "For past 12 months",,3
+Q1x2,Improve brand value (For next 12 to 18 months - For next 12 to 18 months),R,Major strategic priorities post pandemic shock - "For next 12-18 months",,3
+Q13,Rank 1-3 starting from most important drivers for business services deployment (which can include outsourcing for your organization),R,Business operating model using "Today" & "Expected in 2 years",,3
+Q4,"How important is it to drive a OneOffice mindset (connecting the front, middle, and back offices to create a touchless and frictionless digital experience) for your company's overall operation and strategy? ",S,Importance of OneOffice mindset for company's overall operation and strategy,,
+Q5,Has the importance of a OneOffice mindset increased or decreased since Q2 2020 (after the pandemic shock)? ,S,Change in the importance of OneOffice mindset after pandemic shock,,
+Q12x1,What business services operating model do you use today?,S,,,
+Q12x2,what do you anticipate your business services operating model will be in 2 years??,S,,,
+Q7,Process automation (Q7 - What is the stage of overall adoption of emerging technologies in your company? ),G,Stage of overall adoption and change in investments for emerging technologies,Q7G,S
+Q8,"Process automation (Q8 - Do you see investments increasing, decreasing, or staying the same for these technologies over next 12 to 18 months? )",G,Stage of overall adoption and change in investments for emerging technologies,Q8G,S
+Q19a,Please rate the top three benefits of cloud deployment for your organization.,R,Cloud deployment benefit to organization,,3
+Q10,Revenue (Q10 - What impacts do you anticipate your organization's digital initiatives will drive over the next 12 months? ),G,Impacts of Digital Initiatives over next 12 months,Q10G,S
+Q14,"In which functional areas do you use internally operated business services, and in which do you use third-party outsourcing?  ",G,Business operating model using "Today" & "Expected in 2 years",Q14G,S
+Q21,Please indicate the top 3 priorities for your cloud capability investments,R,Top 3 priorities for cloud capability investments,,3
+Q15x1,To what extent will you increase or decrease spending on Internally operated shared services (Captive centers)),G,Current level of WFH post pandemic & expected level of WFH in next 12 months - Internally operated shared services (Captive centers) ,Q15G1,S
+Q15x2,To what extent will you increase or decrease spending on Third-party outsourcing),G,Current level of WFH post pandemic & expected level of WFH in next 12 months - Third-party outsourcing,Q15G2,S
+Q15x3,Business and digital consulting (  - Hybrid (mix of shared services and 3rd party outsourcing)),G,Current level of WFH post pandemic & expected level of WFH in next 12 months - Hybrid (mix of shared services and 3rd party outsourcing) ,Q15G3,S
+Q16x1,"Offshore resources (different region, different time zone) (  - Internally operated shared services (Captive centers))",G,Current delivery model for internally operated shared services,Q16G1,S
+Q16x2,"Offshore resources (different region, different time zone) (  - Third-party outsourcing)",G,Current delivery model for internally operated shared services and third-party outsourcing,Q16G2,S
+Q17x1,To what extent will you change your delivery model for internally operated shared services?,G,Level of extent to change delivery model  internally operated shared services ,Q17G1,S
+Q17x2,To what extent will you change your delivery model for third party outsourcing?,G,Level of extent to change delivery model  outsourcing,Q17G2,S
+Q17x3,To what extent will you change your delivery model for internaly operated shared services and third party outsourcing?,G,Level of extent to change delivery model mix of shared services and 3rd party outsourcing,Q17G3,S
+Q20a,On the scale of strongly agree to strongly disagree how would you rate the following statements about your organization's cloud strategy?,G,organization's cloud strategy ,Q20aG,S
+Q18a,What pricing model do you use for each of the following business and technology services?,MG,Level of extent to change delivery model mix of shared services and 3rd party outsourcing,Q18aG,M
+Q22,Reduce our investments in outsourcing (Q22 - On the scale of strongly agree to strongly disagree how would you rate your cloud strategy impacting other sourcing and investment decisions?),G,Cloud strategy impacting other sourcing and investment decisions,Q22G,S
+Q23,"Providing strategic direction for the business technology investments (Q23 - How important is it for your partners to provide value to your cloud strategy in each of these areas? (e.g., advisory firm or system integrator))",G,Importance of providing value to cloud strategy by partners,Q23G,S
+Q2,What are the major changes in your organization's ways of working for the next 12 to 18 months? ,R,,,3
+Q3,How is your IT budget expected to change in 2021? ,S,,,
+Q6,How important are the following factors to enable your organization to SURVIVE and THRIVE post the pandemic shock (after Q2 2020)? And how would you rate your organization's maturity for each of these factors? ,G,,Q6G,S
+Q9,What are your company's challenges to adopting emerging technologies?,R,,,3
+Q11x1,What is the current level of WFH (work from home) for your organization post the pandemic shock? ,S,,,
+Q11x2,What is the expected level of WFH in the next 12 months?,S,,,
+Q20x1,"Energy - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x1G,S
+Q20x2,"Utilities - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x2G,S
+Q20x3,"Banking & financial services - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x3G,S
+Q20x4,"Insurance - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x4G,S
+Q20x5,"Healthcare - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x5G,S
+Q20x6,"Life Sciences - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x6G,S
+Q20x7,"Travel, Hospitality, and Logistics - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x7G,S
+Q20x8,"Telecom - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x8G,S
+Q20x9,"High-Tech - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x9G,S
+Q20x10,"Retail & CPG - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x10G,S
+Q20x11,"Manufacturing - How do you expect the adoption of emerging technologies (AI, automaton, blockchain, etc.) to change across your industry's value chain in the next 24 months?",G,,Q20x11G,S
+Q25,Pick the top three statements that describe the status of your company in terms of working in the cloud.,R,,,3
+Q24x1,Pick the top 3 workloads which your organization has already moved to the cloud or is moving to the cloud.,M,,,
+Q24x2,What is your cloud strategy for each of the specified workloads? ,G,,Q24x2G,S
+Q24x3,Which hyperscaler are you working with for each workload on public or hybrid cloud?,G,,Q24x3G,S
+Q26,What are the top three challenges for your organization in the context of adopting cloud?,R,,,3

@@ -9,12 +9,7 @@ services:
       dockerfile: Dockerfile
       context: ./nginx
     ports:
-      - "3050:80"
-
-  api:
-    build:
-      dockerfile: Dockerfile
-      context: "./backend"
+      - "39002:80"
 
   client:
     stdin_open: true
@@ -22,4 +17,39 @@ services:
       - CHOKIDAR_USEPOLLING=true
     build:
       dockerfile: Dockerfile
-      context: ./my-app
+      context: ./raven_web_app
+    networks:
+      - raven-dashboard
+
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: ./raven_rest_api
+    networks:
+      - raven-dashboard
+    depends_on:
+      - db-server
+      - redis-server
+
+  db-server:
+    image: mongo:4.4
+    ports:
+      - "27017:27017"
+    networks:
+      - raven-dashboard
+    volumes:
+      - db-storage:/data/db
+
+  redis-server:
+    image: redis:6.2.5
+    ports:
+      - "6379:6379"
+    networks:
+      - raven-dashboard
+
+networks:
+  raven-dashboard:
+    driver: bridge
+volumes:
+  db-storage:
+    driver: local

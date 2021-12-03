@@ -1,0 +1,26 @@
+import * as Joi from 'joi';
+
+export const themeValidation = Joi.object({
+  chartFontFace: Joi.string(),
+  chartColors: Joi.array(),
+  chartAxisColor: Joi.string(),
+  dataLabelColor: Joi.string(),
+  logoBase64String: Joi.string(),
+  catAxisFontSize: Joi.number(),
+  valAxisFontSize: Joi.number(),
+  lengendFontSize: Joi.number(),
+  dataLabelFontSize: Joi.number(),
+  userManagement: Joi.boolean(),
+  pptExport: Joi.boolean(),
+  pdfExport: Joi.boolean(),
+  ChartTable: Joi.boolean(),
+  CrossTabulation: Joi.boolean(),
+  TourGuid: Joi.boolean(),
+  Filters: Joi.boolean(),
+  primaryFontFace: Joi.string(),
+  primaryColor: Joi.string(),
+  secondaryColor: Joi.string(),
+  clientName: Joi.string(),
+  sourceText: Joi.string(),
+  copyRightText: Joi.string(),
+});

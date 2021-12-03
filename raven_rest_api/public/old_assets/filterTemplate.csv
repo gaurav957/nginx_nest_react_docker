@@ -1,0 +1,9 @@
+qId,qLabelText,sType,order,active
+D1,Industry,M,1,1
+D2,Annual revenue,M,2,1
+D3,Region,M,3,1
+D3a,Country,M,4,1
+D4,Job title,M,6,1
+D5,Function,M,7,1
+D7,Revenue growth,M,8,1
+D8,Profit growth,M,10,1

@@ -1,0 +1,31 @@
+qId,qLabelText,order,active
+Q1x2,What are the strategic priorities in your organization for the next 12 to 18 months?,2,1
+Q2,What are the major changes in your organization's ways of working for the next 12 to 18 months?,3,1
+Q3,How is your IT budget expected to change in 2021? ,4,1
+Q4,"How important is it to drive a OneOffice mindset (connecting the front, middle, and back offices to create a touchless and frictionless digital experience) for your company's overall operation and strategy? ",5,1
+Q5,Has the importance of a OneOffice mindset increased or decreased since Q2 2020 (after the pandemic shock)? ,6,1
+Q6,How important are the following factors to enable your organization to SURVIVE and THRIVE post the pandemic shock (after Q2 2020)? How would you rate your organization's maturity for each of these suriving and thriving factors?,7,1
+Q7,What is the stage of overall adoption of emerging technologies in your company? ,8,1
+Q8,"Do you see investments increasing, decreasing, or staying the same for these emerging technologies over next 12 to 18 months? ",9,1
+Q9,What are your company's top challenges to adopting emerging technologies? ,10,1
+Q10,What impacts do you anticipate your organization's digital initiatives will drive over the next 12 months? ,11,1
+Q11x2,What is the expected level of WFH (work from home) for your organization in the next 12 months?,13,1
+Q12x1,What business services  operating model do you use today?,14,1
+Q12x2,What do you anticipate your business services  operating model will be in 2 years?,15,1
+Q13,Rank the top three most important drivers for business services deployment  (which can include outsourcing for your organization). ,16,1
+Q14,"In which functional areas do you use internally operated business services, and in which do you use third-party outsourcing? ",17,1
+Q15x3,To what extent will you increase or decrease spending for the following areas for a hybrid mix of shared services and 3rd party outsourcing?,20,1
+Q16x1,What is the current delivery model for third-party outsourcing?,21,1
+Q16x2,What is the current delivery model for internally operated shared services?,22,1
+Q17x3,To what extent will you change your delivery model for internaly operated shared services and third party outsourcing?,25,1
+Q18a,What pricing model do you use for each of the following business and technology services?,26,1
+Q25,Pick the top three statements that describe the status of your company in terms of working in the cloud.,38,1
+Q19a,Please rate the top three benefits of cloud deployment for your organization.,39,1
+Q20a,On the scale of strongly agree to strongly disagree how would you rate the following statements about your organization's cloud strategy?,40,1
+Q21,Please indicate the top 3 priorities for your cloud capability investments,41,1
+Q22,On the scale of strongly agree to strongly disagree how would you rate the impact of your cloud strategy ion the following sourcing and investment decisions? ,42,1
+Q23,How important is it for your partners to provide value to your cloud strategy in each of these areas?,43,1
+Q24x1,Pick the top 3 workloads which your organization has already moved to the cloud or is moving to the cloud.,44,1
+Q24x2,What is your cloud strategy for each of the specified workloads? ,45,1
+Q24x3,Which hyperscaler are you working with for each workload on public or hybrid cloud?,46,1
+Q26,What are the top three challenges for your organization in the context of adopting cloud?,47,1

@@ -1,0 +1,36 @@
+qId,qText,type,qLabelText,gridId,subType
+qa1,"To start, we would like to make sure we hear from all types of people. Which of these describe you?",S,"To start, we would like to make sure we hear from all types of people. Which of these describe you?",,
+hidage,What is your age? ,S,What is your age? ,,
+hidregion,What state do you live in?,S,What state do you live in?,,
+qe1,What is your employment status?,S,What is your employment status?,,
+qe4,What is your household's approximate total annual household income before taxes? ,S,What is your household's approximate total annual household income before taxes? ,,
+qe5,What is the highest level of education you have completed so far? ,S,What is the highest level of education you have completed so far? ,,
+qe7,What language(s) do you speak at home?,S,What language(s) do you speak at home?,,
+qe6,What is your marital status? ,S,What is your marital status? ,,
+qb1,Now we'd like to switch gears a bit and learn more about your hobbies and interests. ,G,Now we'd like to switch gears a bit and learn more about your hobbies and interests. ,qb1G,S
+qb2,Let's now think about sports fandom. How would you describe your interest in each of the following sports?,G,Let's now think about sports fandom. How would you describe your interest in each of the following sports?,qb2G,S
+qb3,"How frequently do you watch these sports on TV, streaming, or digitally in a typical month (when in season)?",G,"How frequently do you watch these sports on TV, streaming, or digitally in a typical month (when in season)?",qb3G,S
+qc4,Please indicate if you are currently betting or plan to bet on the each of the sports below. ,MG,Please indicate if you are currently betting or plan to bet on the each of the sports below. ,qc4G,M
+qa5,"How recently, if ever, have you participated in the following activities related to sports betting?",G,"How recently, if ever, have you participated in the following activities related to sports betting?",qa5G,S
+qa6,"Whether or not you have done so in the past, which of these same activities - if any - do you think you will participate in the next six months? ",M,"Whether or not you have done so in the past, which of these same activities - if any - do you think you will participate in the next six months? ",,
+qc10,How would you say your interest in sports betting has changed over the past year? ,M,How would you say your interest in sports betting has changed over the past year? ,,
+qc8,"Thinking about the 'average' week, how many events do you bet on?",S,"Thinking about the 'average' week, how many events do you bet on?",,
+qc15,Please select all the types of sports betting that you currently participate in or think you WILL participate in in the future.,M,,,
+qc2,"Regardless of how much you bet on sports (or don't) today, which of the following factors (if any), would potentially drive you to do so in the future? ",M,,,
+qc3,What prevents you from participating in sports betting (or from participating more than you do today)? ,M,,,
+qc13,How do you feel about the legalization of sports betting?,S,,,
+qc14,"If sports betting is / was legal in your state, how does / would that impact your likelihood to participate?",S,,,
+qc7,"Earlier in the survey you mentioned that you have participated in sports betting within the past few months. We'd like to ask you a few questions about your sports betting habits. 
+As always, there are no right or wrong answers!",S,,,
+qc6,Please select all the sports betting apps or websites you are aware of.,M,,,
+qc9,"Which of these sports betting apps or websites, if any, have you ever used?",M,,,
+qc12,You mentioned that you were aware of Hard Rock Sportsbook. Where did you first hear about this sports betting apps / website?,M,,,
+qd1,"Based on this description, what is your initial impression of Hard Rock Sportsbook? 
+          How do you FEEL about it?",M,,,
+qd2,How appealing to you is Hard Rock Sportsbook?,S,,,
+qd3,Please indicate your level of interest in Hard Rock Sportsbook.,S,,,
+qd6,What do you foresee as potential barriers to using the new Hard Rock Sportsbook app / website?,M,,,
+qd4,Pretend that Hard Rock Sportsbook is available for use. Indicate how you might include Hard Rock Sportsbook when betting on sports.,S,,,
+qd4x1,You said that you would likely continue to use other sports betting apps along with Hard Rock Sportsbook. ,M,,,
+qd5,"Which of the following factors, if any, would be most compelling in getting you to try using Hard Rock Sportsbook?",M,,,
+qd7,"In your opinion, what impact does the 'Hard Rock' name have on your perception of this new offering (Hard Rock Sportsbook)?",S,,,
